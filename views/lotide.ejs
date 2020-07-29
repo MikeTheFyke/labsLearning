@@ -15,11 +15,35 @@
 
         <div>
             <h2>The Assert Function</h2>
-            <p>Here we will explore the assert function</p>
+            <p>Here we will explore the assert function.</p>
         </div>
 
+        <div>
+            <label for="assert1">Please enter the first value to compare.</label>
+            <input type="text" id="assert1">
+            <br>
+            <label for="assert2">Please enter the second value to compare.</label>
+            <input type="text" id="assert2">
+            <br>
+            <button onclick="assertFunction1 ()">Assert!</button>
+            <h1 id="assertOutput1"></h1>
+        </div>
     </div>
 
 </body>
+
+<script>
+    function assertFunction1 () {
+        if (document.getElementById("assert1").value === document.getElementById("assert2").value){
+            document.getElementById("assertOutput1").innerHTML = "Assertion Success!";
+            console.log("Assert1 = " + assert1.value + " Assert2 = " + assert2.value );
+            console.log("Assertion Success");
+        } else if (document.getElementById("assert1").value !== document.getElementById("assert2").value){
+            console.log("Assert1 = " + assert1.value + " Assert2 = " + assert2.value );
+            console.log("Assertion Failed");
+            document.getElementById("assertOutput1").innerHTML = "Assertion Failed!";
+        }
+    }
+</script>
 
 </html>
