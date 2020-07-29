@@ -12,4 +12,12 @@ app.get("/index", (req, res) => {
     res.render("index");
 });
 
+app.get("/week1", (req, res) => {
+    res.render("week1");
+});
+
+app.get("/week2", (req, res) => {
+    res.render("week2");
+});
+
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./public/headerStyle.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Labs Learning</title>
+</head>
+
+<body>
+    <%- include ('partials/header.ejs') %>
+    <h1>Welcome to week 2</h1>
+</body>
+
+<script >
+    function hamburgerFunction () {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+}
+</script>
+
+</html>
