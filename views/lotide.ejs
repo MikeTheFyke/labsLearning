@@ -36,11 +36,11 @@
     function assertFunction1 () {
         if (document.getElementById("assert1").value === document.getElementById("assert2").value){
             document.getElementById("assertOutput1").innerHTML = "Assertion Success!";
-            console.log("Assert1 = " + assert1.value + " Assert2 = " + assert2.value );
-            console.log("Assertion Success");
+            console.assert(document.getElementById("assert1").value === document.getElementById("assert2").value);
+            console.log("Assertion Success!");
         } else if (document.getElementById("assert1").value !== document.getElementById("assert2").value){
-            console.log("Assert1 = " + assert1.value + " Assert2 = " + assert2.value );
-            console.log("Assertion Failed");
+            console.assert(document.getElementById("assert1").value === document.getElementById("assert2").value);
+            console.log("Assertion Failed!");
             document.getElementById("assertOutput1").innerHTML = "Assertion Failed!";
         }
     }
