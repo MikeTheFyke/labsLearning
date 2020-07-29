@@ -20,4 +20,8 @@ app.get("/week2", (req, res) => {
     res.render("week2");
 });
 
+app.get("/lotide", (req, res) => {
+    res.render("lotide");
+});
+
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
