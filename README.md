@@ -1,0 +1,1 @@
+To run use node express_server.ejs. Runs on localhost:3000/index
