@@ -6,3 +6,37 @@
     background-color: green;
     width: 100vw;
 }
+
+#headerContainer #myLinks {
+    margin-top: 60px;
+    display: none;
+}
+
+#headerContainer a {
+    color: #80ced6;
+    background-color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+#headerContainer a.icon {
+    background-color: white;
+    color: green;
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 15px;
+}
+  
+#headerContainer a:hover {
+    background-color: #ddd;
+    color: green;
+}
+
+#active {
+    background-color: #4CAF50;
+    color: white;
+}
