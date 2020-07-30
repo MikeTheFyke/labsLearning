@@ -1,3 +1,8 @@
 #assertContainer{
-    
+    width: 80vw;
+    height: 175px;
+    margin: 0px auto;
+    border-color: green;
+    border-style: solid;
+    border-radius: 15px;
 }
