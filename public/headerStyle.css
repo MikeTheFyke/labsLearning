@@ -5,6 +5,7 @@
     text-align: center;
     background-color: green;
     width: 100vw;
+    height: 60px;
 }
 
 #headerContainer #myLinks {
@@ -13,7 +14,7 @@
 }
 
 #headerContainer a {
-    color: #80ced6;
+    color: green;
     background-color: white;
     padding: 14px 16px;
     text-decoration: none;
