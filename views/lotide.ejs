@@ -46,7 +46,12 @@
                 <input type="text" id="head1">
                 <br>
                 <button id="headButton" onclick="pushFunction ()">Push</button>
-                <h1 id="headOutput1"></h1>
+                <br>
+                <label for="head2">Please select a position from your array.</label>
+                <input type="text" id="head2">
+                <br>
+                <button id="headPositionButton" onclick="positionFunction ()">Select</button>
+                <h1 id="headOutput2"></h1>
             </div>
         </div>
 
@@ -70,11 +75,19 @@
     var newArray = [];
 
     function pushFunction () {
-        newArray.push(document.getElementById("head1"));
+        newWord = document.getElementById("head2").value;
+        newArray.push(newWord);
         for (x = 0; x < newArray.length; x ++){
-            console.log(newArray[x].value);
+            console.log(newArray[x]);
         }
         document.getElementById("head1").value = "";
+    }
+
+    function positionFunction () {
+        var newValue = document.getElementById("head2").value - 1;
+        console.log(newValue);
+        console.log(newArray[newValue]);
+        document.getElementById("headOutput2").innerHTML = newArray[newValue];
     }
 </script>
 

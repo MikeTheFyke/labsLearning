@@ -102,3 +102,17 @@
     border-color: green;
     outline: none ;
 }
+
+#headPositionButton{
+    outline: none ;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+#head2 {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    outline: none ;
+}
