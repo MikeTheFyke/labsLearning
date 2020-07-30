@@ -32,3 +32,24 @@
     float: left;
     margin: 10px 10px;
 }
+
+#assertButton{
+    outline: none ;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+#assert1 {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    outline: none ;
+}
+
+#assert2 {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    outline: none ;
+}
