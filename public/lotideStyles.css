@@ -2,7 +2,31 @@
     width: 80vw;
     height: 175px;
     margin: 0px auto;
+    background-color: green;
     border-color: green;
     border-style: solid;
     border-radius: 15px;
+}
+
+#internalAssertContainer{
+    width: 70vw;
+    height: 170px;
+    float: right;
+    margin: 0px 0px 0px 20px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#assertTitle {
+    width: 10px;
+    margin: 2px 0px;
+}
+
+#assertTitle h1 {
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin: 0px;
 }
