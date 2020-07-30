@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./public/mainStyles.css" type="text/css" />
     <link rel="stylesheet" href="./public/lotideStyles.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
     <title>Labs Learning</title>
 </head>
 
@@ -40,13 +41,13 @@
 <script>
     function assertFunction1 () {
         if (document.getElementById("assert1").value === document.getElementById("assert2").value){
-            document.getElementById("assertOutput1").innerHTML = "Assertion Success!";
+            document.getElementById("assertOutput1").innerHTML = "Assertion Success! 😺 ";
             console.assert(document.getElementById("assert1").value === document.getElementById("assert2").value);
             console.log("Assertion Success!");
         } else if (document.getElementById("assert1").value !== document.getElementById("assert2").value){
             console.assert(document.getElementById("assert1").value === document.getElementById("assert2").value);
             console.log("Assertion Failed!");
-            document.getElementById("assertOutput1").innerHTML = "Assertion Failed!";
+            document.getElementById("assertOutput1").innerHTML = "Assertion Failed! 😾 ";
         }
     }
 </script>
