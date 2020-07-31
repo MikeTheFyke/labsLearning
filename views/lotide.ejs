@@ -75,7 +75,8 @@
     var newArray = [];
 
     function pushFunction () {
-        newWord = document.getElementById("head2").value;
+        var newWord = document.getElementById("head1").value;
+        console.log("Your new word is : " + newWord);
         newArray.push(newWord);
         for (x = 0; x < newArray.length; x ++){
             console.log(newArray[x]);
@@ -85,7 +86,6 @@
 
     function positionFunction () {
         var newValue = document.getElementById("head2").value - 1;
-        console.log(newValue);
         console.log(newArray[newValue]);
         document.getElementById("headOutput2").innerHTML = newArray[newValue];
     }
