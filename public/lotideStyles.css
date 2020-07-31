@@ -33,6 +33,14 @@
     margin: 10px 10px;
 }
 
+#assertOutput1{
+    margin: 0px;
+}
+
+#headOutput2{
+    margin: 0px;
+}
+
 .lotideButton{
     outline: none ;
     border-radius: 5px;
