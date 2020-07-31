@@ -42,7 +42,7 @@
             <div id="internalHeadContainer">
                 <p>Here we will explore arrays and positioning.</p>
 
-                <label for="head1">Please enter a  new name for your array.</label>
+                <label for="head1">Please enter a new value for your array.</label>
                 <input type="text" id="head1">
                 <br>
                 <button id="headButton" onclick="pushFunction ()">Push</button>
@@ -88,6 +88,7 @@
         var newValue = document.getElementById("head2").value - 1;
         console.log(newArray[newValue]);
         document.getElementById("headOutput2").innerHTML = newArray[newValue];
+        document.getElementById("head2").value = "";
     }
 </script>
 
