@@ -40,18 +40,12 @@
     background-color: green;
 }
 
-#assert1 {
+.lotideInput{
     border-radius: 5px;
     border-style: solid;
     border-color: green;
     outline: none ;
-}
-
-#assert2 {
-    border-radius: 5px;
-    border-style: solid;
-    border-color: green;
-    outline: none ;
+    margin: 2px;
 }
 
 #headContainer{
@@ -96,23 +90,10 @@
     background-color: green;
 }
 
-#head1 {
-    border-radius: 5px;
-    border-style: solid;
-    border-color: green;
-    outline: none ;
-}
 
 #headPositionButton{
     outline: none ;
     border-radius: 5px;
     color: white;
     background-color: green;
-}
-
-#head2 {
-    border-radius: 5px;
-    border-style: solid;
-    border-color: green;
-    outline: none ;
 }
