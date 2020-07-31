@@ -34,11 +34,11 @@
 }
 
 #assertOutput1{
-    margin: 0px;
+    margin: 5px auto;
 }
 
 #headOutput2{
-    margin: 0px;
+    margin: 5px auto;
 }
 
 .lotideButton{
@@ -54,6 +54,10 @@
     border-color: green;
     outline: none ;
     margin: 2px;
+}
+
+.lotideHeaders{
+    margin: 0px auto 5px auto;
 }
 
 #headContainer{
