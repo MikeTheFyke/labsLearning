@@ -80,9 +80,9 @@
     minValue = newArray[0];
     console.log("minValue is : " + minValue);
     for (x = 0; x <= newArray.length; x ++){
-            if (minValue <= newArray[x]){
+            if (newArray[x] <= minValue){
               minValue = newArray[x];
-              console.log(minValue);
+              console.log("New minValue is : " + minValue);
             }
     }
         document.getElementById("moduleOutput2").innerHTML = minValue;
