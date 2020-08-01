@@ -22,16 +22,29 @@
           <p class="moduleHeaders">Here we will explore the sum function.</p>
 
           <label for="assert1">Please enter the first value.</label>
-          <input type="text" id="assert1"  class="moduleInput">
+          <input type="text" id="sum1"  class="moduleInput">
           <br>
           <label for="assert2">Please enter the second value.</label>
-          <input type="text" id="assert2" class="moduleInput">
+          <input type="text" id="sum2" class="moduleInput">
           <br>
-          <button id="assertButton" class="moduleButton" onclick="assertFunction1 ()">Sum!</button>
+          <button id="sumButton" class="moduleButton" onclick="sumFunction ()">Sum!</button>
           <h1 id="moduleOutput1"></h1>
       </div>
   </div>
 
 </body>
+
+<script>
+  function sumFunction () {
+    var newValue1 = document.getElementById("sum1").value;
+    var newValue2 = document.getElementById("sum2").value;
+    console.log("Your new word is : " + newWord);
+    newArray.push(newWord);
+    for (x = 0; x < newArray.length; x ++){
+        console.log(newArray[x]);
+    }
+    document.getElementById("head1").value = "";
+  }
+</script>
 
 </html>
