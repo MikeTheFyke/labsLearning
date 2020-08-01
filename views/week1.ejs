@@ -45,7 +45,7 @@
           <button id="pushButton" class="moduleButton" onclick="pushFunction ()">Push</button>
           <br>
           <button id="minButton" class="moduleButton" onclick="minFunction ()">Min!</button>
-          <h1 id="moduleOutput1"></h1>
+          <h1 id="moduleOutput2"></h1>
       </div>
     </div>
 
@@ -77,12 +77,13 @@
   var minValue;
 
   function minFunction () {
-    for (x = 0; x < newArray.length; x ++){
+    for (x = 0; x <= newArray.length; x ++){
             if (newArray[x] <= newArray[x+1]){
               minValue = newArray[x];
               console.log(minValue);
             }
         }
+        document.getElementById("moduleOutput2").innerHTML = minValue;
   }
 
 </script>
