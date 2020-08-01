@@ -77,12 +77,14 @@
   var minValue;
 
   function minFunction () {
+    minValue = newArray[0];
+    console.log("minValue is : " + minValue);
     for (x = 0; x <= newArray.length; x ++){
-            if (newArray[x] <= newArray[x+1]){
+            if (minValue <= newArray[x]){
               minValue = newArray[x];
               console.log(minValue);
             }
-        }
+    }
         document.getElementById("moduleOutput2").innerHTML = minValue;
   }
 
