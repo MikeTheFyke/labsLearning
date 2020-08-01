@@ -24,4 +24,8 @@ app.get("/lotide", (req, res) => {
     res.render("lotide");
 });
 
+app.get("/loopy", (req, res) => {
+    res.render("loopy");
+});
+
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
