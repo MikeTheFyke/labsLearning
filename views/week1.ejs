@@ -62,6 +62,17 @@
     document.getElementById("sum2").value = "";
     document.getElementById("moduleOutput1").innerHTML = sumValue;
   }
+
+  var newArray = [];
+
+  function pushFunction () {
+        var newMin = document.getElementById("min1").value;
+        newArray.push(newMin);
+        for (x = 0; x < newArray.length; x ++){
+            console.log(newArray[x]);
+        }
+        document.getElementById("head1").value = "";
+    }
 </script>
 
 </html>
