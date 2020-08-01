@@ -12,6 +12,32 @@
     <div id="mainContent">
         <h1>Welcome Loopy</h1>
     </div>
+
+    <div id="weekContainer">
+        <div id="moduleTitle">
+            <h1>L<br>O<br>O<br>P<br>Y
+            </h1>
+        </div>
+        <div id="internalWeekContainer">
+            <p class="moduleHeaders">Here we will create an array of number randomly.   <button id="randomButton" class="moduleButton" onclick="randomFunction ()">RANDY!</button></p>
+            <h1 id="moduleOutput1"></h1>
+        </div>
+      </div>
+
 </body>
+
+<script>
+    function randomFunction () {
+        var randomArray = [];
+
+        for (x = 0; x <= 100; x ++){
+            randomArray[x] = Math.floor((Math.random() * 100) + 200);
+            console.log(randomArray[x]);
+            document.getElementById("moduleOutput1").innerHTML = randomArray.toString(randomArray[x]);
+        }
+
+    }
+</script>
+
 
 </html>
