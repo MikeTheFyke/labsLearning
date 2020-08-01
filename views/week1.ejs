@@ -38,12 +38,9 @@
   function sumFunction () {
     var newValue1 = document.getElementById("sum1").value;
     var newValue2 = document.getElementById("sum2").value;
-    console.log("Your new word is : " + newWord);
-    newArray.push(newWord);
-    for (x = 0; x < newArray.length; x ++){
-        console.log(newArray[x]);
-    }
-    document.getElementById("head1").value = "";
+    var sumValue = newValue1 + newValue2;
+
+    document.getElementById("moduleOutput1").innerHTML = sumValue;
   }
 </script>
 
