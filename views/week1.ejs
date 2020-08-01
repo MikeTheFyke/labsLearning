@@ -74,8 +74,15 @@
         document.getElementById("min1").value = "";
   }
 
-  function minFunction () {
+  var minValue;
 
+  function minFunction () {
+    for (x = 0; x < newArray.length; x ++){
+            if (newArray[x] <= newArray[x+1]){
+              minValue = newArray[x];
+              console.log(minValue);
+            }
+        }
   }
 
 </script>
