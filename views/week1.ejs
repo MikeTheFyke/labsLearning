@@ -40,11 +40,13 @@
       <div id="internalWeekContainer">
           <p class="moduleHeaders">Here we will explore the min function.</p>
 
-          <label for="assert1">Please enter a value.</label>
+          <label for="assert1">Please enter values to build your array.</label>
           <input type="text" id="min1"  class="moduleInput">
           <button id="pushButton" class="moduleButton" onclick="pushFunction ()">Push</button>
           <br>
-          <button id="minButton" class="moduleButton" onclick="minFunction ()">Min!</button>
+          <label for="minButton">Now click to find the minimum value in your array.</label>
+          <br>
+          <button id="minButton" class="moduleButton" onclick="minFunction ()">Min</button>
           <h1 id="moduleOutput2"></h1>
       </div>
     </div>
@@ -102,7 +104,7 @@ document.getElementById("sum2")
               console.log("New minValue is : " + minValue);
             }
     }
-        document.getElementById("moduleOutput2").innerHTML = "Your array had a minimum value was " + minValue + " .";
+        document.getElementById("moduleOutput2").innerHTML = "Your array had a minimum value of " + minValue + " .";
   }
 
 </script>

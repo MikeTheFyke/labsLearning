@@ -65,3 +65,10 @@
     font-size: 13px;
     word-wrap: break-word;
 }
+
+#moduleOutput2{
+    margin: 20px auto;
+    width: 480px;
+    font-size: 13px;
+    word-wrap: break-word;
+}
