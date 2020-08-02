@@ -69,6 +69,22 @@
         }
     });
 
+    document.getElementById("head1")
+        .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("headButton").click();
+        }
+    });
+
+    document.getElementById("head2")
+        .addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("headPositionButton").click();
+        }
+    });
+
     function assertFunction1 () {
         if (document.getElementById("assert1").value === document.getElementById("assert2").value){
             document.getElementById("assertOutput1").innerHTML = "Assertion Success! 😺 ";
