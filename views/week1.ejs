@@ -53,6 +53,15 @@
 </body>
 
 <script>
+
+document.getElementById("min1")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("pushButton").click();
+    }
+});
+
   function sumFunction () {
     var newValue1 = document.getElementById("sum1").value;
     var newValue2 = document.getElementById("sum2").value;
